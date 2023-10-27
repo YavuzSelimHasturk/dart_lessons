@@ -56,6 +56,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  int z = 10;
+  late int y ;
+
+  // late kullanimi nullable yapi kullanimindan geliyor
 
   void _incrementCounter() {
     setState(() {
